@@ -1,0 +1,109 @@
+{
+	"pages": [{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/goods_detail/goods_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/goods_list/goods_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"onReachBottomDistance": 150,
+				"backgroundColor": "#F8F8F8"
+            }
+            
+        }
+      
+        
+        ,{
+            "path" : "subpkg/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "wd商城",
+		"navigationBarBackgroundColor": "#C00000",
+		"backgroundColor": "#FFFFFF",
+		"app-plus": {
+			"background": "#FFFFFF"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#C00000",
+	    "list": [
+			{
+	      "pagePath": "pages/home/home",
+	      "text": "首页",
+	      "iconPath": "static/icon-demo4.png",
+	      "selectedIconPath": "static/icon-demo4.png"
+	    },
+		{
+		  "pagePath": "pages/cate/cate",
+		  "text": "分类",
+		  "iconPath": "static/icon-demo2.png",
+		  "selectedIconPath": "static/icon-demo2.png"
+		},
+		{
+		  "pagePath": "pages/cart/cart",
+		  "text": "购物车",
+		  "iconPath": "static/icon-demo3.png",
+		  "selectedIconPath": "static/icon-demo3.png"
+		},
+		{
+		  "pagePath": "pages/my/my",
+		  "text": "我的",
+		  "iconPath": "static/icon-demo.png",
+		  "selectedIconPath": "static/icon-demo.png"
+		}
+	
+		]
+	  }
+}
